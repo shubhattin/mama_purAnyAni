@@ -1,0 +1,121 @@
+body {
+    font-size: 20px;
+    background-color: #000;
+    font-family: "Nirmala UI"
+}
+
+input[type="text"],
+select {
+    outline: none;
+}
+
+#sUchI {
+    width: 22px;
+    height: 17px;
+}
+
+.dark_input {
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+    padding: 0;
+    width: 200px;
+    color: #8a2be2;
+    background-color: #000
+}
+
+#abhitodanam {
+    display: block;
+}
+
+.sam {
+    border-color: transparent;
+    border-width: 2px;
+    font-weight: bolder;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 15px;
+    position: fixed;
+    z-index: 100;
+    top: 10px
+}
+
+#ekam {
+    background-color: #ff0;
+    left: 220px
+}
+
+#dvayam {
+    background-color: greenyellow;
+    left: 270px
+}
+
+video {
+    width: 100%
+}
+
+#nirdhAraNa {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    left: 30px
+}
+
+#blink {
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    z-index: 1000;
+    left: 20px;
+    bottom: 30px;
+    display: none;
+}
+
+#dtl {
+    color: white;
+    font-size: 14px;
+    overflow: scroll;
+    max-width: 300px;
+    max-height: 120px;
+    display: none;
+}
+
+.tm input {
+    width: 40px;
+    border: 1px solid #ff0;
+}
+
+.cntrl {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    cursor: default;
+    user-select: none;
+}
+
+.cntrl1 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.tm span {
+    font-weight: bolder;
+    font-size: 22px;
+    color: white;
+}
+
+.niyojan {
+    font-size: 24px;
+    color: white;
+    font-weight: bolder;
+    border: 2px solid green;
+    padding: 3px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}

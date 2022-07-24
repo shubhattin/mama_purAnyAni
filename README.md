@@ -1,1 +1,1 @@
-# mama_purAnyAni
+**Download the Executables by going to [Releases](https://github.com/shubhattin/mama_purAnyAni/releases)**

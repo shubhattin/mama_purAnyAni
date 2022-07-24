@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="sa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>లస్యశ్రవ్యౌ</title>
+    <link rel="icon" type="image/png" href="icon.png">
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body id="bdy">
+    <div id="pack">
+        <div>
+            <input type="text" id="abhitodanam" class="dark_input">
+        </div>
+        <select id="sUchI"></select>
+    </div>
+    <button class="sam" id="ekam">௰</button>
+    <button class="sam" id="dvayam">௲</button>
+    <script src="query.js"></script>
+    <div id="su" style="visibility:hidden;">
+        <div class="cntrl1 hide">
+            <button id="show_1">Show</button>
+            <button class="hide" id="hide_1">Hide</button>
+        </div>
+        <div class="cntrl hide">
+            <span class="niyojan" id="lower_time">-</span>
+            <span class="tm">
+                <input type="number" id="hrs" class="dark_input">
+                <span>:</span>
+                <input type="number" id="mins" class="dark_input">
+                <span>:</span>
+                <input type="number" id="secs" class="dark_input">
+            </span>
+            <span class="niyojan" id="higher_time">+</span>
+            <div style="margin-top:10px;">
+                <button id="load_current">Load</button>
+                <button id="set_current">Set</button>
+            </div>
+        </div>
+        <div class="mdi"></div>
+    </div>
+    <div id="blink"></div>
+    <span id="nirdhAraNa">
+        <input type="text" id="lekh">
+        <button onclick="kRyate();">ok</button>
+        <button onclick="kRyate1();">s</button>
+        <div id="dtl"></div>
+    </span>
+    <script src="app.js"></script>
+</body>
+
+</html>

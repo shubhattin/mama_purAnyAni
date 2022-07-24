@@ -1,0 +1,27 @@
+#include<windows.h>
+MAINICON ICON "Icon.ico"
+1 VERSIONINFO
+FILEVERSION 1,0,0,0
+PRODUCTVERSION 1,0,0,0
+FILETYPE VFT_APP
+{
+  BLOCK "StringFileInfo"
+  {
+    BLOCK "400904E4"  // English India
+    {
+      VALUE "CompanyName", "Shbhuam Ananad Gupta"
+      VALUE "FileVersion", "1.0"
+      VALUE "FileDescription", "A Console Application for Decimal Binary Convert"
+      VALUE "InternalName", "db"
+      VALUE "LegalCopyright", "Shubham"
+      VALUE "LegalTrademarks", ""
+      VALUE "OriginalFilename", "db.exe"
+      VALUE "ProductName", "Decimal-Binary"
+      VALUE "ProductVersion", "1.0"
+    }
+  }
+  BLOCK "VarFileInfo"
+  {
+    VALUE "Translation", 0x4009, 1252
+  }
+}
